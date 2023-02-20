@@ -15,6 +15,13 @@ h1 {
     color: rgb(245, 238, 238);
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
 #title {
     background-color: #FF4C68;
 } 
@@ -52,7 +59,7 @@ h1 {
     transform: rotate(25deg);
 }
 
-/* Features */
+/* Features Seciton */
 
 #features {
     margin: 7% 15%;
@@ -81,4 +88,44 @@ h1 {
     color: #FF4C68;
 }
 
-/* Footer */
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: rgb(245, 238, 238);
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
