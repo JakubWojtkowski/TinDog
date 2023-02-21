@@ -18,11 +18,29 @@
   <!-- CSS Stylesheets i Scripts -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
 
+  <script src="https://code.jquery.com/jquery-3.6.3.slim.js"
+    integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Internal styles -->
+  <style>
+    @media (max-width: 1028px) {
+      #title {
+        text-align: center;
+      }
+
+      .title-image {
+        position: static;
+        transform: rotate(0);
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -41,15 +59,15 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -68,7 +86,7 @@
               class="fa-brands fa-google-play"></i> Download</button>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 position-relative">
           <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
 
@@ -224,10 +242,11 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <h3 class="heading">Find the True Love of Your Dog's Life Today.</h3>
+    <button class="btn btn-dark btn-lg download-button" type="button"><i class="fa-brands fa-apple"></i>
+      Download</button>
+    <button class="btn btn-light btn-lg download-button" type="button"><i class="fa-brands fa-google-play"
+        style="color: gray"></i> Download</button>
   </section>
 
 
@@ -235,7 +254,12 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <i class="fa fa-twitter footer-icon" aria-hidden="true"></i>
+    <i class="fa fa-facebook footer-icon" aria-hidden="true"></i>
+    <i class="fa fa-instagram footer-icon" aria-hidden="true"></i>
+    <i class="fa fa-envelope footer-icon" aria-hidden="true"></i>
+
+    <p>© Copyright 2023 TinDog</p>
 
   </footer>
 
