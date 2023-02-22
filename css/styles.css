@@ -1,4 +1,4 @@
-/* HTML element */
+/* HTML elements */
 body {
   margin: 0;
   padding: 0;
@@ -6,8 +6,17 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /* Heading */
@@ -24,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(245, 238, 238);
 }
 
-.features-title{
+.features-title {
   font-size: 1.5rem;
 }
 
@@ -32,6 +41,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .container-fluid {
   padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: rgb(245, 238, 238);
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -63,15 +83,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
   text-align: left;
 }
 
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
-
-/* Title Image */
 
 .title-image {
   width: 60%;
@@ -83,14 +100,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Features Seciton */
 
 #features {
-  background-color: #fff;
   position: relative;
   z-index: 1;
-}
-
-
-#features p {
-  color: #8f8f8f;
 }
 
 .features-box {
@@ -110,7 +121,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #testimonials {
   background-color: #ef8172;
-  color: rgb(245, 238, 238);
 }
 
 .testimonial-text {
@@ -153,20 +163,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Cta Section */
 
-#cta {
-  background-color: #ff4c68;
-  color: rgb(245, 238, 238);
-}
-
 /* Footer Section */
 
 #footer {
-  background-color: #fff;
   line-height: 3;
-}
-
-#footer p {
-  color: #8f8f8f;
 }
 
 .footer-icon {
